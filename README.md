@@ -1,9 +1,9 @@
-# Sistema da Academia — dev1
+# Gerenciador de Academia
 
 ## Estrutura
 
 ```text
-dev1/
+gerenciador-de-academia/
 ├── __init__.py
 ├── main.py
 ├── alunos.py
@@ -17,18 +17,10 @@ dev1/
 
 ## Como executar
 
-Entre na pasta `dev1` e execute:
+Entre na pasta do projeto e execute:
 
 ```bash
 python main.py
-```
-
-Também é possível iniciar o menu executando `python main.py`.
-
-Se estiver na pasta que contém `dev1`, execute como pacote:
-
-```bash
-python -m dev1.main
 ```
 
 ## Funcionalidades
@@ -65,7 +57,7 @@ Para testar entradas inválidas, use por exemplo: nome em branco, telefone `123`
 
 ## Testes
 
-Dentro da pasta `dev1`, execute:
+Dentro da pasta `gerenciador-de-academia`, execute:
 
 ```bash
 python test_cadastros.py

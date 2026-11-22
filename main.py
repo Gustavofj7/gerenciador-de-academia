@@ -5,8 +5,6 @@ Este módulo integra os menus de alunos e planos aos módulos de regras
 (alunos.py e planos.py) e à persistência em CSV (arquivos.py).
 Pode ser executado como:
     python main.py
-ou, a partir da pasta acima:
-    python -m dev1.main
 """
 
 # Imports relativos funcionam quando o projeto é executado como pacote.
